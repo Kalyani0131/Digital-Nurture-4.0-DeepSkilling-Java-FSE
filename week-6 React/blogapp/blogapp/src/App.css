@@ -1,0 +1,48 @@
+/* App.css */
+.App {
+  padding: 30px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f9f9f9;
+  min-height: 100vh;
+  text-align: left; /* Make entire content left-aligned */
+}
+
+.main-heading {
+  color: #222;
+  margin-bottom: 20px;
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.posts-container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.post {
+  background: #fff;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-left: 5px solid #ccc; /* neutral color */
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.05);
+}
+
+.post h2 {
+  font-size: 20px;
+  margin-bottom: 10px;
+  color: #222; /* black-ish instead of blue */
+  text-align: left;
+}
+
+.post p {
+  font-size: 16px;
+  color: #444;
+  text-align: left;
+}
+
+.loading, .error {
+  font-size: 18px;
+  color: #555;
+  text-align: left;
+}
